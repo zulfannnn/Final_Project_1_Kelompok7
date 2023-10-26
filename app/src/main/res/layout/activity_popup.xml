@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/popup"
+    android:padding="20dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add A New Task"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="center"
+        android:textColor="#564CCC"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="What do you want to do next?"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="center"
+        android:textColor="#564CCC"
+        android:textSize="16sp" />
+    <EditText
+        android:id="@+id/edittask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="@color/black"
+        android:ems="10"
+        android:hint="Input Task...."
+        android:inputType="text"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnasave"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:background="@drawable/btn"
+            android:fontFamily="@font/poppins_semibold"
+            android:textStyle="bold"
+            android:text="Add" />
+    </LinearLayout>
+
+</LinearLayout>

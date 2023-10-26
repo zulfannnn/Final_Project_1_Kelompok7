@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/popup"
+        android:backgroundTint="#F8F8F8">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/id_task_tv"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:hint="1"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/taskTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center">
+            <Button
+                android:id="@+id/btnEdit"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:background="@drawable/btn"
+                android:fontFamily="@font/poppins_semibold"
+                android:textStyle="bold"
+                android:text="Edit" />
+
+            <Button
+                android:id="@+id/btnComplete"
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="80dp"
+                android:background="@drawable/btn"
+                android:fontFamily="@font/poppins_semibold"
+                android:textStyle="bold"
+                android:text="Complete" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
