@@ -41,7 +41,7 @@
         android:gravity="center">
         <Button
             android:id="@+id/btnasave"
-            android:layout_width="110dp"
+            android:layout_width="160dp"
             android:layout_height="40dp"
             android:background="@drawable/btn"
             android:fontFamily="@font/poppins_semibold"

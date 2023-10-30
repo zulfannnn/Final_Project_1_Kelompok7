@@ -40,7 +40,7 @@ public class SQLiteDatabaseHandler extends SQLiteOpenHelper {
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-        db.execSQL(" DROP TABLE IF EXISTS "+TABLE_TASK);
+        db.execSQL("DROP TABLE IF EXISTS " + TABLE_TASK);
         onCreate(db);
     }
     public void addTask(Task task){
